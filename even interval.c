@@ -13,3 +13,4 @@ printf("%d",n);
 }		
 getch();
 }
+}
