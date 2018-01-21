@@ -18,7 +18,7 @@ break;
 }
 if (flag == 0)
 printf("%d ", low);
-++low;
+low++;
 }
 return 0;
 }
