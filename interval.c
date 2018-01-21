@@ -11,7 +11,7 @@ void main()
  {
  if(i%2==0)
  {
- printf("The even number is %d",i);
+ printf("The even number  %d",i);
  }
  }
  }
