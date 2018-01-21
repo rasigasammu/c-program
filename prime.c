@@ -13,11 +13,11 @@ break;
 }
 if(flag==0)
 {
-printf("%d is a prime number");
+printf("%d  prime number");
 }
 else
 {
-printf("%d is not a prime number);
+printf("%d  not a prime number);
 }
 return 0;
 }
