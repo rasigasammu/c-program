@@ -13,10 +13,10 @@ n=t/10;
 printf("%d",r);
 if(r=n)
 {
-printf("palindrome");
+printf("yes");
 }
 else
 {
-printf("not palindrome");
+printf("no");
 }
 }
