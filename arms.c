@@ -11,8 +11,8 @@ cub=pow(rem,3);
 sum=sum+cube;num=num/10;
 if(num==temp)
 
-printf("The num is amstrong",num);
+printf("yes",num);
 else
-printf("The num is not amstrong",num);
+printf("no",num);
 }
 }
