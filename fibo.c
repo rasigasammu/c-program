@@ -2,7 +2,7 @@
 int main()
 {
 	int r1=0,r2=1,r3,n;
-	printf("ENTER THE NO.OF.ELEMENTS:\n");
+	printf("value of n:\n");
 	scanf("%d",&n);
 	printf("%d",r2);
 	while(n!=0)
