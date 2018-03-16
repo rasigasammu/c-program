@@ -3,8 +3,8 @@ void main()
 {
 char  s[30];
 int k,i;
+scanf("%s",&s);
 scanf("%d",&k);
-scanf("%s",s);
 for(i=0;i<k;i++)
 {
     printf("%c",s[i]);
