@@ -1,31 +1,21 @@
 #include <stdio.h>
-int main()
-{
-int low, high, i, temp1, temp2, remainder, n = 0, result = 0;
-printf("Enter two num(intervals): ");
-scanf("%d %d", &low, &high);
-printf("Armstrong num between %d an %d are: ", low, high);
-for(i = low + 1; i < high; ++i)
-{
-temp2 = i;
-temp1 = i;
-while (temp1 != 0)
-{
-temp1 /= 10;
-++n;
-}
-while (temp2 != 0)
-{
-remainder = temp2 % 10;
-result += pow(remainder, n);
-temp2 /= 10;
-}
-if (result == i)
-{
-printf("%d ", i);
-}
-n=0;
-result=0;
-}
-return 0;
+
+int main(void) {
+    int i,n1,n2,k,r,ans=0,j;
+	printf("enter the limits");
+	scanf("\n%d\n%d",&n1,&n2);
+	for(j=n1;j<=n2;j++)
+	{
+		ans=0;
+	k=j;
+	while(k>0)
+	{
+		r=k%10;
+		ans=ans+(r*r*r);
+		k=k/10;
+	}
+	if(ans==j)
+	printf("%d\t",j);
+	}
+	return 0;
 }
